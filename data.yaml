@@ -1,11 +1,12 @@
 ---
 update_time: '2018.10.31'
 name: 杨舟
-nickname: Candybullet
-meta_content: 大三前端狗，HR姐姐们把我招到碗里去吧
+nickname: Candybullet/sishenhei7
+location: 广州
+meta_content: HR姐姐们把我招到碗里去吧
 keywords: xiao555,前端,工作,简历
-ga_id: 'UA-92595311-1'
-age: 22岁
+ga_id: 'UA-92595311-2'
+age: 26岁
 gender: 男
 school: 西南交通大学
 profession: 应用数学
@@ -14,11 +15,12 @@ english_level: CET-6
 blog: http://www.cnblogs.com/yangzhou33/
 github: https://github.com/sishenhei7
 website:
-online: https://sishenhei7.github.io/resume
-print: https://sishenhei7.github.io/resume/print.html
-apply_to_position: Web前端工程师
+online: https://sishenhei7.github.io/Resume
+print: https://sishenhei7.github.io/Resume/print.html
+apply_to_position: Web前端开发工程师
+qrcode: https://sishenhei7.github.io/Resume/img/online.png
 description: !!md |
-  我叫张睿武，西电软件学院大四学生，现在在腾讯TEG实习，负责前端开发。自学web前端，后端Node.js，PHP 也略知一二。能折腾，喜欢在实践中学习，学Vue的时候就是看两天文档，然后直接用在写个人博客上，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
+  我叫杨舟！
 contact: # 联系方式
   -
     icon: fa-envelope
@@ -54,106 +56,98 @@ experience: # 项目经验
     section: 个人项目
     project:
       -
-        name: nunjucks-extend-loader
-        date: 2017.2
+        name: react-blog
+        date: 2018.3-至今
         img:
-        website:
-        source_code: https://github.com/xiao555/nunjucks-extend-loader
+        website: https://sishenhei7.github.io/react-blog
+        source_code: https://github.com/sishenhei7/react-blog
         des: !!md |
-          开发了一个多页应用脚手架[Webjucks](https://github.com/xiao555/Webjucks)，开发框架的过程中，自己写了个loader，已发布在npm上。用 Node的fs模块递归创建不存在的目录，最后通过回调函数完成最后一步copy文件的动作。
+          我用来练手前端react框架的项目。
+          一期主要是完成项目并做展示，技术栈为：react + antd + react-router + sessionStorage + issue + es6。
+          二期主要打算做成可配置的静态网站库，增加瀑布流展示，并发布到npm上面。技术栈为：redux + thunk + yamljs + bricks.js。（制作中）
       -
-        name: Resume-it
-        date: 2017.2
+        name: egg.js后台api
+        date: 2018.10-2018.10
         img:
         website:
-        source_code: https://github.com/xiao555/Resume-it
+        source_code: https://github.com/sishenhei7/egg.js-api-demo
         des: !!md |
-          知乎上看大家的简历，感觉模板很多，但个人信息是不变的，所以我就想搞一个数据模板分离的简历生成器，这样无论换模板还是改数据都非常方便。暂时 48 star，21 fork，有人用是最好的。
-
-          最初是用webpack打包的，后来换成了Gulp，简单易用，不必上webpack，后面打算改造成页面可以直接修改的。
+          我用后端框架egg.js写的一个后台api系统，技术栈为jwt + mongoose + restful + genhash，并且加入了登录系统和邀请码系统。
+          走了不少弯路，不过总算完成了，完成后用apizza写了一个[api文档](https://sishenhei7.github.io/egg.js-api-demo/api/api_docs)。
       -
-        name: Blog
-        date: 2017.4-至今
+        name: react后台系统
+        date: 2018.10-至今
         img:
         website:
-        source_code: https://github.com/xiao555/blog
+        source_code: https://github.com/sishenhei7/react-management-system-for-egg.js
         des: !!md |
-          用来练手Vue的项目，基于Koa2 + Vue2 + MongoDB + Redis 搭建的 前后端分离 + RESTful API + SSR 的博客系统，并且进行了性能优化，加快首屏渲染速度。
-
-          最近参考vue-hacknews2.0对前端部分进行了一次重构，新版本的webpack打包体积好小，实现了按需加载css，服务器部分也正准备上docker，正在写dockerfile中...
+          我用react写的搭配egg.js api的后台管理系统，灵感来源为github的界面设计。
+          技术栈为react + antd + react-router + sessionStorage + redux + redux-thunk。
+          我在设计初期就充分考虑到了可扩展性，可以做成一个文档展示网站，也可以利用d3.js加入可视化，还可以加入用户操作和权限管理等。
   -
     section: 工作经验
     exper:
-      # -
-      #   company: 广州魔笛信息科技有限公司
-      #   date: 2018.3 - 至今
-      #   desc: !!md |
-      #     在TEG研发管理部TAPD中心实习，主要做前端方面的实现需求，解决bug等工作。
-      #   project:
-          # -
-          #   des: !!md |
-          #     技术需求上，改造过内部的一个手机号验证组件，实现了多实例，状态保存等功能，在代码层面也做了优化，减少$的使用，重复运行的代码抽离出来等等。
-          # -
-          #   des: !!md |
-          #     业务需求上，在做官网轮播图需求的时候，把旧的代码封装成内部组件，并且可以绑定多个实例，实现代码的复用。
-          # -
-          #   des: !!md |
-          #     在解决bug的过程中，也积累了不少经验，比如有ie下的background：rgba兼容性问题，通过google用filter解决的。
-          # -
-          #   des: !!md |
-          #     在开发的过程中，我会思考怎么实现是最好的，团队的产品也教会了我认真做好每一个细节。在腾讯的人生第一次职场之旅，我觉得ok。
       -
         company: 广州魔笛信息科技有限公司
         date: 2018.3 - 至今
-        desc: 这是一个主要给网易做网页的外包公司，PC端基于Jquery，移动端基于Zepto。我主要负责最大程度的还原设计稿，完成页面交互。另外我负责制作过腾讯外包的99公益H5项目。
+        desc: 这是一家主要给网易做网页和H5的外包公司，PC端基于Jquery，移动端基于Zepto，CSS用less，技术栈为网易的feg库。下面是我做的比较有特色的项目：
         project:
           -
-            name: SSRGA
-            date: '2016.7'
-            img: https://xiao555.netlify.com/ssrga.jpg
-            website: http://www.ssrga.com/
+            name: 腾讯99公益H5独立项目
+            date: '2018.8'
+            img: https://sishenhei7.github.io/Resume/img/gongyi.png
+            website: http://ssl.gongyi.qq.com/m/weixin/2018station.html
             source_code:
             des: !!md |
-              这是我接手的第一个项目，为了适应团队框架完成页面我快速学习了模板引擎Nunjucks，CSS预处理器Stylus，数据层YAML语法等等。
-              然后在实践中巩固，最终一个周左右实现了这个项目的前端部分。
+              （请用微信扫左边的二维码查看）
+              这是腾讯公益外包给我们的H5独立项目，我负责前端部分。
+              1.我需要使用腾讯公益提供的api库，编写登录模块，充值模块和统计模块。
+              2.在处理内联视频和接入腾讯视频的过程中，我在处理视频间的无缝衔接时踩了不少坑，最后解决了。
+              3.项目中还用到了html和canvas之间的转化，而且需要实现竖排emoji和昵称，我提出了多种解决方案，但全部不完美，最终说服甲方去掉了竖排昵称。
+              4.项目中我需要和公司内部设计沟通，也要和腾讯爸爸们沟通，对“焦油坑”有很深的体会。
           -
-            name: Clubfit
-            date: '2016.8'
-            # img: https://xiao555.netlify.com/clubfit.jpg
-            website: http://clubfit.vwmdev.com/
+            name: 《决战平安京》移动端官网
+            date: '2018.7'
+            img: https://sishenhei7.github.io/Resume/img/moba.png
+            website: http://moba.163.com/m/
             source_code:
             des: !!md |
-              接手这个项目时已经对团队的框架比较熟悉了，这个项目也包括了很多页面组件，算是强化练习吧。每天的代码leader会review，我再相应的做出修改，整个过程下来收获很多，是一次蜕变。
+              这是我接手的一个还算比较大的网易项目，我也比较喜欢做这种能被很多人看到的官网项目。
+              制作过程中我需要研究cms系统，新闻系统，并且在关键位置加入动画效果，在末尾加入按需加载。制作完成后，由于是官网，我还需要对加载性能进行优化，把一些api变成异步加载，把另一些api变成延时加载。
           -
-            name: taldumande
-            date: '2016.9'
-            img: https://xiao555.netlify.com/taldumande.jpg
-            website: https://www.taldumande.org.au/
+            name: 《嘣战纪》移动端抽奖专题
+            date: '2018.9'
+            img: https://sishenhei7.github.io/Resume/img/bzj.png
+            website: http://mumu.163.com/m/bzj/
             source_code:
             des: !!md |
-              这是项目前端已经能完全独立完成了，设计也有很多有趣的地方，像header，footer部分两种颜色，为了不影响其它布局也比较方便用伪元素解决。没有很难的地方，细节很多，也比较考验布局能力。
+              这是一个拥有完整登录流程和抽奖流程的网易项目。
+              对于登录，我需要处理验证登录，账号密码登录，并用localStorage储存用户信息，减少http请求；对于抽奖，我需要制作并优化抽奖动画，并结合登录，合理调整查询抽奖次数，抽奖，查看抽奖历史的顺序，避免出现展示为空的情况。
+              项目完成后我还专门研究了登录与授权，并总结了心得写在我的博客里面。
           -
-            name: workforceprofessionals
-            date: '2016.10'
-            img: https://xiao555.netlify.com/workforceprofessionals.jpg
-            website: https://workforceprofessionals.org/
+            name: 《决战平安京》PC端季末赛专题
+            date: '2018.6'
+            # img: https://sishenhei7.github.io/Resume/img/jms.jpg
+            website: http://moba.163.com/2018/s1E/
             source_code:
-            des: !!md |
-              这个项目我负责后端，跟leader语音交流了一下后端框架的用法，研究了两三天大体了解了基于wordpress的后端的工作方式，于是用边写边学的方式完成了这个项目。我做的就是写项目有关的逻辑，数据的导入获取等等。
-              另外，首页的下面的Twitter部分是我写的，之前获取tweet的方法需要各种key麻烦还有问题，我查了好久找到一个相关的js库Twitter-Post-Fetcher，使用简单。
-          # -
-          #   name: innerdoor
-          #   date: 2016.11 - 至今
-          #   img: https://xiao555.netlify.com/innerdoor.jpg
-          #   website: http://innerdoor.vwmdev.com/
-          #   source_code:
-          #   des: !!md |
-          #     这个项目相当于一个会员系统，数据都是通过API来获取的，有大量的表格，需要从API获取大量的数据，处理数据，渲染到前端页面上。
-          #     一开始我写了一堆if-else，数据跟表单一一对应，后来发现这样做代码量很大，而且不够灵活。后来重新安排数据结构，用label作为key值，前端表单label作为value值，通过模板引擎跟后端对应起来，这样既大大减少了代码量，也提高了灵活性。
+            # des: !!md |
+            #   这是我负责的一个PC端赛事专题。
+            #   它算是一个比较典型的PC页面，里面有侧栏导航，直播，赛事切换（swiper），赛事报名（小鱼系统），赛事资讯(六马系统)，浏览器兼容（IE10）等。
+            #   主要用来证明我对PC端网页制作的熟练程度。
+          -
+            name: 《明日之后》PC端拉新专题
+            date: '2018.10'
+            # img: https://sishenhei7.github.io/Resume/img/survive.jpg
+            website: http://test.nie.163.com/test_html/survive/features/
+            source_code:
+            # des: !!md |
+            #   这是我制作的一个比较好看的专题。
+            #   技术栈是turn.js，制作过程中看官方文档解决了不少bug和浏览器兼容。（IE9）
+            #   一共花三天时间就制作完成上线了。
 skill: # 技能清单
       -
         des: !!md |
-          能够高度还原设计稿，使用swiper,zepto,swiper等库编写较复杂的PC和移动端页面，并熟悉各种浏览器的兼容性调试（IE8）。
+          能够高度还原设计稿，使用jquery,zepto,swiper等库编写较复杂的PC端和移动端页面，并熟悉各种浏览器的兼容性调试（IE8）。
       -
         des: !!md |
           熟悉react前端框架，使用react写过[博客项目](https://github.com/sishenhei7/react-blog)，基于react + antd + react-router + sessionStorage + issue + es6技术栈。
@@ -165,7 +159,7 @@ skill: # 技能清单
           熟悉微信端开发，熟悉微信登录，能够用charles进行抓包，包括小程序抓包。
       -
         des: !!md |
-          爱生活，爱前端，爱数学，注重用户体验，喜欢研究新技术，在我的博客写过很多生活感悟和技术心得。
+          爱生活，爱前端，爱数学。注重用户体验，喜欢研究新技术，在[我的博客](http://www.cnblogs.com/yangzhou33/)写过很多技术心得。
 
 
 ---

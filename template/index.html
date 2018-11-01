@@ -11,6 +11,7 @@
             <li class="someRight">
                 <dt><i class="fa fa-bookmark"></i>Basic info. 基本信息</dt>
                 <dd><span>个人信息:</span> {{ name }} / {{ gender }} / {{ age }} / {{ grade }}</dd>
+                <dd><span>所在地：</span>{{location}}</dd>
                 <dd><span>学校：</span>{{school}}</dd>
                 <dd><span>专业：</span>{{profession}}</dd>
                 {% if english_level %}
@@ -61,6 +62,12 @@
                     </div>
                 </dd>
                 {% endfor %}
+            </li>
+            <li class="qrcode">
+                <dt><i class="fa fa-bookmark"></i>Online. 在线简历</dt>
+                <div class="qrcode-wrap">
+                    <img src="{{ qrcode }}" alt="在线简历">
+                </div>
             </li>
         </ul>
         {% if intro %}
@@ -133,7 +140,7 @@
                             {% endfor %}
                         </ul>
                     {% endif %}
-                
+
                 {% endfor %}
             </li>
         </ul>
