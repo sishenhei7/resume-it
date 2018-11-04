@@ -5,7 +5,7 @@ nickname: Candybullet/sishenhei7
 location: 广州
 meta_content: HR姐姐们把我招到碗里去吧
 keywords: xiao555,前端,工作,简历
-ga_id: 'UA-92595311-2'
+ga_id: 'https://hm.baidu.com/hm.js?c598c119680432ec000b8f2f802935fe'
 age: 26岁
 gender: 男
 school: 西南交通大学
@@ -90,16 +90,15 @@ experience: # 项目经验
       -
         company: 广州魔笛信息科技有限公司
         date: 2018.3 - 至今
-        desc: 这是一家主要给网易做网页和H5的外包公司，PC端基于Jquery，移动端基于Zepto，CSS用less，技术栈为网易的feg库。下面是我做的比较有特色的项目：
+        desc: 这是一家主要给网易做网页和H5的外包公司，PC端基于Jquery，移动端基于Zepto，CSS用less，技术栈为网易的feg库。下面是我做的比较有特色的项目（可用微信扫左边的二维码查看具体项目）：
         project:
           -
             name: 腾讯99公益H5独立项目
             date: '2018.8'
             img: https://sishenhei7.github.io/Resume/img/gongyi.png
-            website: http://ssl.gongyi.qq.com/m/weixin/2018station.html
+            # website: http://ssl.gongyi.qq.com/m/weixin/2018station.html
             source_code:
             des: !!md |
-              （请用微信扫左边的二维码查看）
               这是腾讯公益外包给我们的H5独立项目，我负责前端部分。
               1.我需要使用腾讯公益提供的api库，编写登录模块，充值模块和统计模块。
               2.在处理内联视频和接入腾讯视频的过程中，我在处理视频间的无缝衔接时踩了不少坑，最后解决了。
@@ -109,7 +108,7 @@ experience: # 项目经验
             name: 《决战平安京》移动端官网
             date: '2018.7'
             img: https://sishenhei7.github.io/Resume/img/moba.png
-            website: http://moba.163.com/m/
+            # website: http://moba.163.com/m/
             source_code:
             des: !!md |
               这是我接手的一个还算比较大的网易项目，我也比较喜欢做这种能被很多人看到的官网项目。
@@ -118,32 +117,32 @@ experience: # 项目经验
             name: 《嘣战纪》移动端抽奖专题
             date: '2018.9'
             img: https://sishenhei7.github.io/Resume/img/bzj.png
-            website: http://mumu.163.com/m/bzj/
+            # website: http://mumu.163.com/m/bzj/
             source_code:
             des: !!md |
               这是一个拥有完整登录流程和抽奖流程的网易项目。
               对于登录，我需要处理验证登录，账号密码登录，并用localStorage储存用户信息，减少http请求；对于抽奖，我需要制作并优化抽奖动画，并结合登录，合理调整查询抽奖次数，抽奖，查看抽奖历史的顺序，避免出现展示为空的情况。
-              项目完成后我还专门研究了登录与授权，并总结了心得写在我的博客里面。
+              项目完成后我还专门研究了登录与授权，并总结了[心得](https://www.cnblogs.com/yangzhou33/p/9740089.html)写在我的博客里面。
           -
             name: 《决战平安京》PC端季末赛专题
             date: '2018.6'
-            # img: https://sishenhei7.github.io/Resume/img/jms.jpg
+            img: https://sishenhei7.github.io/Resume/img/jms.jpg
             website: http://moba.163.com/2018/s1E/
             source_code:
-            # des: !!md |
-            #   这是我负责的一个PC端赛事专题。
-            #   它算是一个比较典型的PC页面，里面有侧栏导航，直播，赛事切换（swiper），赛事报名（小鱼系统），赛事资讯(六马系统)，浏览器兼容（IE10）等。
-            #   主要用来证明我对PC端网页制作的熟练程度。
+            des: !!md |
+              这是我负责的一个PC端赛事专题。
+              它算是一个比较典型的PC页面，里面有侧栏导航，直播，赛事切换（swiper），赛事报名（小鱼系统），赛事资讯(六马系统)，浏览器兼容（IE10）等。
+              主要用来证明我对PC端网页制作的熟练程度。
           -
             name: 《明日之后》PC端拉新专题
             date: '2018.10'
-            # img: https://sishenhei7.github.io/Resume/img/survive.jpg
+            img: https://sishenhei7.github.io/Resume/img/survive.jpg
             website: http://test.nie.163.com/test_html/survive/features/
             source_code:
-            # des: !!md |
-            #   这是我制作的一个比较好看的专题。
-            #   技术栈是turn.js，制作过程中看官方文档解决了不少bug和浏览器兼容。（IE9）
-            #   一共花三天时间就制作完成上线了。
+            des: !!md |
+              这是我制作的一个比较好看的专题。
+              技术栈是turn.js，制作过程中看官方文档解决了不少bug和浏览器兼容。（IE9）
+              一共花三天时间就制作完成上线了。
 skill: # 技能清单
       -
         des: !!md |
